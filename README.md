@@ -8,6 +8,7 @@
 ## Starting Maven project
 a. Create a directory, `cd` into that directory and execute this command to create maven project:  
 `mvn archetype:generate -DgroupId={project-packaging} -DartifactId={project-name} -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false`
+
 Here is an example:
 `mvn archetype:generate -DgroupId=com.ajay -DartifactId=numberGenerator -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false`
 
