@@ -8,8 +8,7 @@
 ## Starting Maven project
 1. Create a directory, `cd` into that directory and execute this command to create maven project:  
 `mvn archetype:generate -DgroupId={project-packaging} -DartifactId={project-name} -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false`
-
-Here is an example:
+###Here is an example:
 `mvn archetype:generate -DgroupId=com.ajay -DartifactId=numberGenerator -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false`
 
 2. After it is generated, use this command so that maven project can be imported into eclipse
